@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/aakash/simulation2_ws/install/t3_action_msg/include/**",
+        "/home/aakash/neobotix_workspace/install/neo_srvs2/include/**",
+        "/home/aakash/neobotix_workspace/install/neo_msgs2/include/**",
+        "/home/aakash/neobotix_workspace/install/neo_localization2/include/**",
+        "/home/aakash/neobotix_workspace/install/neo_local_planner2/include/**",
+        "/home/aakash/neobotix_workspace/install/neo_common2/include/**",
+        "/home/aakash/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/aakash/turtlebot3_ws/install/turtlebot3_msgs/include/**",
+        "/home/aakash/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/aakash/turtlebot3_ws/install/dynamixel_sdk/include/**",
+        "/home/aakash/eyantra_ws/install/realsense_gazebo_plugin/include/**",
+        "/home/aakash/eyantra_ws/install/linkattacher_msgs/include/**",
+        "/home/aakash/eyantra_ws/install/gazebo_ros2_control/include/**",
+        "/home/aakash/eyantra_ws/install/ebot_docking/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/aakash/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
+        "/home/aakash/bumperbot_ws/src/bumperbot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

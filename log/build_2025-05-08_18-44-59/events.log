@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.000514] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.000534] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000858] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.099414] (-) TimerEvent: {}
+[0.199893] (-) TimerEvent: {}
+[0.300204] (-) TimerEvent: {}
+[0.400563] (-) TimerEvent: {}
+[0.405002] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.486393] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'build'}
+[0.488751] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples', '--', '-j12', '-l12'], 'cwd': '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aakash/intelligent_quads/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aakash/intelligent_quads/ardupilot_gazebo/models:/home/aakash/intelligent_quads/ardupilot_gazebo/worlds'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aakash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aakash/simulation2_ws/install/t3_action_msg/lib:/home/aakash/neobotix_workspace/install/neo_srvs2/lib:/home/aakash/neobotix_workspace/install/neo_msgs2/lib:/home/aakash/neobotix_workspace/install/neo_localization2/lib:/home/aakash/neobotix_workspace/install/neo_local_planner2/lib:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/aakash/turtlebot3_ws/install/dynamixel_sdk/lib:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin/lib:/home/aakash/eyantra_ws/install/linkattacher_msgs/lib:/home/aakash/eyantra_ws/install/gazebo_ros2_control/lib:/home/aakash/eyantra_ws/install/ebot_docking/lib:/home/aakash/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aakash/summer_camp_ws/devel/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins'), ('HOME', '/home/aakash'), ('OLDPWD', '/home/aakash'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('CUDNN_LIBRARY', '/usr/lib/x86_64-linux-gnu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2605'), ('WAF_CONFIGURE_ARGS', '--no-werror'), ('CUDNN_DIR', '/usr/include'), ('SYSTEMD_EXEC_PID', '2935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19547'), ('_colcon_cd_root', '/opt/ros/humble/'), ('Darknet_DIR', '/home/aakash/intelligent_quads/darknet/build'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aakash/flytbase_ws/install:/home/aakash/flytbase/ros_ws/install:/home/aakash/flytbase/ros2_ws/install:/home/aakash/ros2_ws/install:/home/aakash/intelligent_quads/ardu_ws/install:/home/aakash/simulation2_ws/install:/home/aakash/neobotix_workspace/install:/home/aakash/turtlebot3_ws/install:/home/aakash/ros2practice/install:/home/aakash/eyantra_ws/install:/home/aakash/practice_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aakash'), ('JOURNAL_STREAM', '8:28743'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aakash/intelligent_quads/ardu_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/aakash/intelligent_quads/ardu_ws/install/mavlink/lib/pkgconfig:/home/aakash/catkin_ws/devel/lib/pkgconfig:/home/aakash/summer_camp_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'aakash'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo-11/../../share/gazebo-11/models:/home/aakash/summer_camp_ws/src/camp/worlds:/home/aakash/ardupilot/Tools/autotest/models:/home/aakash/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/aakash/ardupilot/Tools/autotest/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/aakash/intelligent_quads/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/aakash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aakash/ardupilot/Tools/autotest:/usr/lib/ccache:/home/aakash/ardupilot/Tools/autotest:/usr/share/gz:/usr/bin:/home/aakash/intelligent_quads/ardupilot:/home/aakash/ardupilot/Tools/autotest:/home/aakash/intelligent_quads/ardupilot/Tools/autotest:/opt/arm-toolchain/gcc-arm-none-eabi-10-2020-q4-major/bin'), ('SESSION_MANAGER', 'local/aakash:@/tmp/.ICE-unix/2911,unix/aakash:/tmp/.ICE-unix/2911'), ('INVOCATION_ID', '2883528547c3470786808454640fa3e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aakash/flytbase_ws/install/turtle_assignment:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction:/home/aakash/simulation2_ws/install/move_robot_as:/home/aakash/simulation2_ws/install/t3_action_msg:/home/aakash/simulation2_ws/install/services_pkg:/home/aakash/simulation2_ws/install/ros2_mapping:/home/aakash/simulation2_ws/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_srvs2:/home/aakash/neobotix_workspace/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_nav2_bringup:/home/aakash/neobotix_workspace/install/neo_msgs2:/home/aakash/neobotix_workspace/install/neo_localization2:/home/aakash/neobotix_workspace/install/neo_local_planner2:/home/aakash/neobotix_workspace/install/neo_common2:/home/aakash/turtlebot3_ws/install/turtlebot3:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_simulations:/home/aakash/turtlebot3_ws/install/turtlebot3_bringup:/home/aakash/turtlebot3_ws/install/turtlebot3_node:/home/aakash/turtlebot3_ws/install/turtlebot3_navigation2:/home/aakash/turtlebot3_ws/install/turtlebot3_fake_node:/home/aakash/turtlebot3_ws/install/turtlebot3_example:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs:/home/aakash/turtlebot3_ws/install/turtlebot3_gazebo:/home/aakash/turtlebot3_ws/install/turtlebot3_description:/home/aakash/turtlebot3_ws/install/turtlebot3_cartographer:/home/aakash/turtlebot3_ws/install/tb3_sim:/home/aakash/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_examples:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/aakash/turtlebot3_ws/install/dynamixel_sdk:/home/aakash/ros2practice/install/my_robot_controller:/home/aakash/practice_ws/install/my_robot_controller:/home/aakash/eyantra_ws/install/ur5_moveit:/home/aakash/eyantra_ws/install/ur_description:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin:/home/aakash/eyantra_ws/install/pymoveit2:/home/aakash/eyantra_ws/install/linkattacher_msgs:/home/aakash/eyantra_ws/install/gazebo_ros2_control:/home/aakash/eyantra_ws/install/eyantra_warehouse:/home/aakash/eyantra_ws/install/ebot_nav2:/home/aakash/eyantra_ws/install/ebot_description:/home/aakash/eyantra_ws/install/ebot_docking:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ca80eb4-ca94-4978-b8bb-55229e4506f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', ':/home/aakash/ardupilot/Tools/autotest/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/../../share/gazebo-11::/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/worlds'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/home/aakash/ros2_test_ws/install/my_gazebo_plugin/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aakash/flytbase_ws/build/turtle_assignment:/home/aakash/flytbase_ws/install/turtle_assignment/lib/python3.10/site-packages:/home/aakash/flytbase/ros_ws/build/uav_deconfliction:/home/aakash/flytbase/ros_ws/install/uav_deconfliction/lib/python3.10/site-packages:/home/aakash/flytbase/ros2_ws/build/uav_deconfliction:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction/lib/python3.10/site-packages:/home/aakash/simulation2_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/aakash/simulation2_ws/build/services_pkg:/home/aakash/simulation2_ws/install/services_pkg/lib/python3.10/site-packages:/home/aakash/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/aakash/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/aakash/turtlebot3_ws/build/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/build/turtlebot3_example:/home/aakash/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/aakash/turtlebot3_ws/build/tb3_sim:/home/aakash/turtlebot3_ws/install/tb3_sim/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/aakash/ros2practice/install/my_robot_controller/lib/python3.10/site-packages:/home/aakash/practice_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/aakash/eyantra_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/aakash/eyantra_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/aakash/eyantra_ws/install/ebot_docking/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aakash/summer_camp_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CUDNN_INCLUDE_DIR', '/usr/include'), ('CMAKE_PREFIX_PATH', '/usr/include:/home/aakash/intelligent_quads/ardu_ws/install/mavlink:/home/aakash/simulation2_ws/install/move_robot_as:/home/aakash/simulation2_ws/install/t3_action_msg:/home/aakash/simulation2_ws/install/ros2_mapping:/home/aakash/simulation2_ws/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_srvs2:/home/aakash/neobotix_workspace/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_nav2_bringup:/home/aakash/neobotix_workspace/install/neo_msgs2:/home/aakash/neobotix_workspace/install/neo_localization2:/home/aakash/neobotix_workspace/install/neo_local_planner2:/home/aakash/neobotix_workspace/install/neo_common2:/home/aakash/turtlebot3_ws/install/turtlebot3:/home/aakash/turtlebot3_ws/install/turtlebot3_simulations:/home/aakash/turtlebot3_ws/install/turtlebot3_bringup:/home/aakash/turtlebot3_ws/install/turtlebot3_node:/home/aakash/turtlebot3_ws/install/turtlebot3_navigation2:/home/aakash/turtlebot3_ws/install/turtlebot3_fake_node:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs:/home/aakash/turtlebot3_ws/install/turtlebot3_gazebo:/home/aakash/turtlebot3_ws/install/turtlebot3_description:/home/aakash/turtlebot3_ws/install/turtlebot3_cartographer:/home/aakash/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_examples:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/aakash/turtlebot3_ws/install/dynamixel_sdk:/home/aakash/eyantra_ws/install/ur5_moveit:/home/aakash/eyantra_ws/install/ur_description:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin:/home/aakash/eyantra_ws/install/pymoveit2:/home/aakash/eyantra_ws/install/linkattacher_msgs:/home/aakash/eyantra_ws/install/gazebo_ros2_control:/home/aakash/eyantra_ws/install/eyantra_warehouse:/home/aakash/eyantra_ws/install/ebot_nav2:/home/aakash/eyantra_ws/install/ebot_description:/home/aakash/eyantra_ws/install/ebot_docking:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world:/home/aakash/flytbase_ws/install/turtle_assignment:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction:/home/aakash/simulation2_ws/install/services_pkg:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_example:/home/aakash/turtlebot3_ws/install/tb3_sim:/home/aakash/ros2practice/install/my_robot_controller:/home/aakash/practice_ws/install/my_robot_controller:/opt/ros/humble:/home/aakash/catkin_ws/devel:/home/aakash/summer_camp_ws/devel')]), 'shell': False}
+[0.500656] (-) TimerEvent: {}
+[0.600971] (-) TimerEvent: {}
+[0.701352] (-) TimerEvent: {}
+[0.801726] (-) TimerEvent: {}
+[0.902175] (-) TimerEvent: {}
+[1.002593] (-) TimerEvent: {}
+[1.103042] (-) TimerEvent: {}
+[1.203461] (-) TimerEvent: {}
+[1.303865] (-) TimerEvent: {}
+[1.404326] (-) TimerEvent: {}
+[1.504757] (-) TimerEvent: {}
+[1.605208] (-) TimerEvent: {}
+[1.705631] (-) TimerEvent: {}
+[1.806101] (-) TimerEvent: {}
+[1.906521] (-) TimerEvent: {}
+[2.007012] (-) TimerEvent: {}
+[2.107456] (-) TimerEvent: {}
+[2.207889] (-) TimerEvent: {}
+[2.308339] (-) TimerEvent: {}
+[2.408781] (-) TimerEvent: {}
+[2.509254] (-) TimerEvent: {}
+[2.609684] (-) TimerEvent: {}
+[2.710123] (-) TimerEvent: {}
+[2.810572] (-) TimerEvent: {}
+[2.911030] (-) TimerEvent: {}
+[3.011442] (-) TimerEvent: {}
+[3.111785] (-) TimerEvent: {}
+[3.212251] (-) TimerEvent: {}
+[3.312764] (-) TimerEvent: {}
+[3.413486] (-) TimerEvent: {}
+[3.514057] (-) TimerEvent: {}
+[3.548950] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.614393] (-) TimerEvent: {}
+[3.714840] (-) TimerEvent: {}
+[3.815297] (-) TimerEvent: {}
+[3.915719] (-) TimerEvent: {}
+[4.016221] (-) TimerEvent: {}
+[4.116714] (-) TimerEvent: {}
+[4.217211] (-) TimerEvent: {}
+[4.317709] (-) TimerEvent: {}
+[4.418470] (-) TimerEvent: {}
+[4.519359] (-) TimerEvent: {}
+[4.619833] (-) TimerEvent: {}
+[4.720191] (-) TimerEvent: {}
+[4.820643] (-) TimerEvent: {}
+[4.921153] (-) TimerEvent: {}
+[5.021704] (-) TimerEvent: {}
+[5.122306] (-) TimerEvent: {}
+[5.222761] (-) TimerEvent: {}
+[5.323649] (-) TimerEvent: {}
+[5.424315] (-) TimerEvent: {}
+[5.479762] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.524532] (-) TimerEvent: {}
+[5.625328] (-) TimerEvent: {}
+[5.725844] (-) TimerEvent: {}
+[5.826342] (-) TimerEvent: {}
+[5.926769] (-) TimerEvent: {}
+[6.027282] (-) TimerEvent: {}
+[6.127823] (-) TimerEvent: {}
+[6.228477] (-) TimerEvent: {}
+[6.329065] (-) TimerEvent: {}
+[6.429647] (-) TimerEvent: {}
+[6.529965] (-) TimerEvent: {}
+[6.630366] (-) TimerEvent: {}
+[6.730658] (-) TimerEvent: {}
+[6.830964] (-) TimerEvent: {}
+[6.841756] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.888293] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.931055] (-) TimerEvent: {}
+[7.028926] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.031143] (-) TimerEvent: {}
+[7.131532] (-) TimerEvent: {}
+[7.232091] (-) TimerEvent: {}
+[7.232720] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.332163] (-) TimerEvent: {}
+[7.432544] (-) TimerEvent: {}
+[7.499029] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.532767] (-) TimerEvent: {}
+[7.633225] (-) TimerEvent: {}
+[7.733649] (-) TimerEvent: {}
+[7.834075] (-) TimerEvent: {}
+[7.934500] (-) TimerEvent: {}
+[8.035069] (-) TimerEvent: {}
+[8.135673] (-) TimerEvent: {}
+[8.178005] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.194396] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.235788] (-) TimerEvent: {}
+[8.336144] (-) TimerEvent: {}
+[8.436560] (-) TimerEvent: {}
+[8.536974] (-) TimerEvent: {}
+[8.637389] (-) TimerEvent: {}
+[8.737755] (-) TimerEvent: {}
+[8.838224] (-) TimerEvent: {}
+[8.938644] (-) TimerEvent: {}
+[9.039051] (-) TimerEvent: {}
+[9.139431] (-) TimerEvent: {}
+[9.239856] (-) TimerEvent: {}
+[9.340293] (-) TimerEvent: {}
+[9.440707] (-) TimerEvent: {}
+[9.541156] (-) TimerEvent: {}
+[9.641590] (-) TimerEvent: {}
+[9.703557] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.741704] (-) TimerEvent: {}
+[9.842140] (-) TimerEvent: {}
+[9.942558] (-) TimerEvent: {}
+[10.042938] (-) TimerEvent: {}
+[10.143382] (-) TimerEvent: {}
+[10.244097] (-) TimerEvent: {}
+[10.344594] (-) TimerEvent: {}
+[10.445064] (-) TimerEvent: {}
+[10.545549] (-) TimerEvent: {}
+[10.646131] (-) TimerEvent: {}
+[10.657911] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.746242] (-) TimerEvent: {}
+[10.846559] (-) TimerEvent: {}
+[10.946975] (-) TimerEvent: {}
+[11.047309] (-) TimerEvent: {}
+[11.125181] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.125842] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.126105] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.135304] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.147430] (-) TimerEvent: {}
+[11.154698] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.155234] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.156315] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.163786] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.247550] (-) TimerEvent: {}
+[11.347943] (-) TimerEvent: {}
+[11.448390] (-) TimerEvent: {}
+[11.548832] (-) TimerEvent: {}
+[11.649307] (-) TimerEvent: {}
+[11.749850] (-) TimerEvent: {}
+[11.850457] (-) TimerEvent: {}
+[11.951042] (-) TimerEvent: {}
+[11.994625] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[12.008030] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/aakash/bumperbot_ws/build/bumperbot_cpp_examples\n'}
+[12.051296] (-) TimerEvent: {}
+[12.107788] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[12.151595] (-) TimerEvent: {}
+[12.251484] (bumperbot_cpp_examples) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_publisher\x1b[0m\n'}
+[12.252124] (-) TimerEvent: {}
+[12.352783] (-) TimerEvent: {}
+[12.370091] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[12.452896] (-) TimerEvent: {}
+[12.553645] (-) TimerEvent: {}
+[12.654403] (-) TimerEvent: {}
+[12.754897] (-) TimerEvent: {}
+[12.855414] (-) TimerEvent: {}
+[12.955892] (-) TimerEvent: {}
+[13.056714] (-) TimerEvent: {}
+[13.157105] (-) TimerEvent: {}
+[13.257709] (-) TimerEvent: {}
+[13.358407] (-) TimerEvent: {}
+[13.459150] (-) TimerEvent: {}
+[13.559733] (-) TimerEvent: {}
+[13.660236] (-) TimerEvent: {}
+[13.760693] (-) TimerEvent: {}
+[13.861329] (-) TimerEvent: {}
+[13.961851] (-) TimerEvent: {}
+[14.062458] (-) TimerEvent: {}
+[14.163137] (-) TimerEvent: {}
+[14.263606] (-) TimerEvent: {}
+[14.364088] (-) TimerEvent: {}
+[14.464639] (-) TimerEvent: {}
+[14.565382] (-) TimerEvent: {}
+[14.665811] (-) TimerEvent: {}
+[14.766232] (-) TimerEvent: {}
+[14.866489] (-) TimerEvent: {}
+[14.966824] (-) TimerEvent: {}
+[15.067346] (-) TimerEvent: {}
+[15.167782] (-) TimerEvent: {}
+[15.268242] (-) TimerEvent: {}
+[15.368691] (-) TimerEvent: {}
+[15.469071] (-) TimerEvent: {}
+[15.569502] (-) TimerEvent: {}
+[15.669944] (-) TimerEvent: {}
+[15.770384] (-) TimerEvent: {}
+[15.870828] (-) TimerEvent: {}
+[15.971253] (-) TimerEvent: {}
+[16.071597] (-) TimerEvent: {}
+[16.172041] (-) TimerEvent: {}
+[16.272665] (-) TimerEvent: {}
+[16.373030] (-) TimerEvent: {}
+[16.473354] (-) TimerEvent: {}
+[16.573736] (-) TimerEvent: {}
+[16.674206] (-) TimerEvent: {}
+[16.774593] (-) TimerEvent: {}
+[16.874949] (-) TimerEvent: {}
+[16.975369] (-) TimerEvent: {}
+[17.075674] (-) TimerEvent: {}
+[17.176063] (-) TimerEvent: {}
+[17.276461] (-) TimerEvent: {}
+[17.376838] (-) TimerEvent: {}
+[17.477289] (-) TimerEvent: {}
+[17.577816] (-) TimerEvent: {}
+[17.678306] (-) TimerEvent: {}
+[17.778646] (-) TimerEvent: {}
+[17.879149] (-) TimerEvent: {}
+[17.979501] (-) TimerEvent: {}
+[18.079896] (-) TimerEvent: {}
+[18.180257] (-) TimerEvent: {}
+[18.280637] (-) TimerEvent: {}
+[18.381082] (-) TimerEvent: {}
+[18.481491] (-) TimerEvent: {}
+[18.581910] (-) TimerEvent: {}
+[18.682273] (-) TimerEvent: {}
+[18.782687] (-) TimerEvent: {}
+[18.883196] (-) TimerEvent: {}
+[18.983669] (-) TimerEvent: {}
+[19.084249] (-) TimerEvent: {}
+[19.184752] (-) TimerEvent: {}
+[19.285476] (-) TimerEvent: {}
+[19.386685] (-) TimerEvent: {}
+[19.487299] (-) TimerEvent: {}
+[19.587838] (-) TimerEvent: {}
+[19.688336] (-) TimerEvent: {}
+[19.788817] (-) TimerEvent: {}
+[19.889280] (-) TimerEvent: {}
+[19.989701] (-) TimerEvent: {}
+[20.090119] (-) TimerEvent: {}
+[20.190624] (-) TimerEvent: {}
+[20.291214] (-) TimerEvent: {}
+[20.392003] (-) TimerEvent: {}
+[20.492809] (-) TimerEvent: {}
+[20.593453] (-) TimerEvent: {}
+[20.694211] (-) TimerEvent: {}
+[20.794873] (-) TimerEvent: {}
+[20.895544] (-) TimerEvent: {}
+[20.996096] (-) TimerEvent: {}
+[21.096585] (-) TimerEvent: {}
+[21.197061] (-) TimerEvent: {}
+[21.297483] (-) TimerEvent: {}
+[21.397846] (-) TimerEvent: {}
+[21.498219] (-) TimerEvent: {}
+[21.598558] (-) TimerEvent: {}
+[21.698999] (-) TimerEvent: {}
+[21.799386] (-) TimerEvent: {}
+[21.899783] (-) TimerEvent: {}
+[22.000257] (-) TimerEvent: {}
+[22.100633] (-) TimerEvent: {}
+[22.201057] (-) TimerEvent: {}
+[22.301421] (-) TimerEvent: {}
+[22.401803] (-) TimerEvent: {}
+[22.502190] (-) TimerEvent: {}
+[22.602562] (-) TimerEvent: {}
+[22.702882] (-) TimerEvent: {}
+[22.803288] (-) TimerEvent: {}
+[22.903728] (-) TimerEvent: {}
+[23.004158] (-) TimerEvent: {}
+[23.104551] (-) TimerEvent: {}
+[23.204938] (-) TimerEvent: {}
+[23.305389] (-) TimerEvent: {}
+[23.405817] (-) TimerEvent: {}
+[23.506284] (-) TimerEvent: {}
+[23.606659] (-) TimerEvent: {}
+[23.707073] (-) TimerEvent: {}
+[23.807513] (-) TimerEvent: {}
+[23.908004] (-) TimerEvent: {}
+[24.008415] (-) TimerEvent: {}
+[24.108817] (-) TimerEvent: {}
+[24.209197] (-) TimerEvent: {}
+[24.309562] (-) TimerEvent: {}
+[24.409950] (-) TimerEvent: {}
+[24.510525] (-) TimerEvent: {}
+[24.610886] (-) TimerEvent: {}
+[24.711308] (-) TimerEvent: {}
+[24.811743] (-) TimerEvent: {}
+[24.912249] (-) TimerEvent: {}
+[25.012670] (-) TimerEvent: {}
+[25.113022] (-) TimerEvent: {}
+[25.213321] (-) TimerEvent: {}
+[25.313665] (-) TimerEvent: {}
+[25.414112] (-) TimerEvent: {}
+[25.514556] (-) TimerEvent: {}
+[25.615014] (-) TimerEvent: {}
+[25.715448] (-) TimerEvent: {}
+[25.815904] (-) TimerEvent: {}
+[25.916470] (-) TimerEvent: {}
+[26.017018] (-) TimerEvent: {}
+[26.117592] (-) TimerEvent: {}
+[26.218357] (-) TimerEvent: {}
+[26.319354] (-) TimerEvent: {}
+[26.420018] (-) TimerEvent: {}
+[26.520704] (-) TimerEvent: {}
+[26.621236] (-) TimerEvent: {}
+[26.721641] (-) TimerEvent: {}
+[26.822514] (-) TimerEvent: {}
+[26.923132] (-) TimerEvent: {}
+[27.023818] (-) TimerEvent: {}
+[27.124498] (-) TimerEvent: {}
+[27.225247] (-) TimerEvent: {}
+[27.325951] (-) TimerEvent: {}
+[27.426800] (-) TimerEvent: {}
+[27.527742] (-) TimerEvent: {}
+[27.628127] (-) TimerEvent: {}
+[27.728704] (-) TimerEvent: {}
+[27.829084] (-) TimerEvent: {}
+[27.929457] (-) TimerEvent: {}
+[28.004818] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[28.029657] (-) TimerEvent: {}
+[28.130239] (-) TimerEvent: {}
+[28.230675] (-) TimerEvent: {}
+[28.331368] (-) TimerEvent: {}
+[28.431916] (-) TimerEvent: {}
+[28.532480] (-) TimerEvent: {}
+[28.633455] (-) TimerEvent: {}
+[28.734621] (-) TimerEvent: {}
+[28.835849] (-) TimerEvent: {}
+[28.936269] (-) TimerEvent: {}
+[29.036603] (-) TimerEvent: {}
+[29.137111] (-) TimerEvent: {}
+[29.237650] (-) TimerEvent: {}
+[29.338110] (-) TimerEvent: {}
+[29.438463] (-) TimerEvent: {}
+[29.538851] (-) TimerEvent: {}
+[29.639356] (-) TimerEvent: {}
+[29.739798] (-) TimerEvent: {}
+[29.840189] (-) TimerEvent: {}
+[29.890649] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[29.909272] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[29.910218] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'install'}
+[29.925212] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples'], 'cwd': '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aakash/intelligent_quads/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/aakash/intelligent_quads/ardupilot_gazebo/models:/home/aakash/intelligent_quads/ardupilot_gazebo/worlds'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aakash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aakash/simulation2_ws/install/t3_action_msg/lib:/home/aakash/neobotix_workspace/install/neo_srvs2/lib:/home/aakash/neobotix_workspace/install/neo_msgs2/lib:/home/aakash/neobotix_workspace/install/neo_localization2/lib:/home/aakash/neobotix_workspace/install/neo_local_planner2/lib:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/aakash/turtlebot3_ws/install/dynamixel_sdk/lib:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin/lib:/home/aakash/eyantra_ws/install/linkattacher_msgs/lib:/home/aakash/eyantra_ws/install/gazebo_ros2_control/lib:/home/aakash/eyantra_ws/install/ebot_docking/lib:/home/aakash/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aakash/summer_camp_ws/devel/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gz-sim-7/plugins'), ('HOME', '/home/aakash'), ('OLDPWD', '/home/aakash'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('CUDNN_LIBRARY', '/usr/lib/x86_64-linux-gnu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2605'), ('WAF_CONFIGURE_ARGS', '--no-werror'), ('CUDNN_DIR', '/usr/include'), ('SYSTEMD_EXEC_PID', '2935'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19547'), ('_colcon_cd_root', '/opt/ros/humble/'), ('Darknet_DIR', '/home/aakash/intelligent_quads/darknet/build'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aakash/flytbase_ws/install:/home/aakash/flytbase/ros_ws/install:/home/aakash/flytbase/ros2_ws/install:/home/aakash/ros2_ws/install:/home/aakash/intelligent_quads/ardu_ws/install:/home/aakash/simulation2_ws/install:/home/aakash/neobotix_workspace/install:/home/aakash/turtlebot3_ws/install:/home/aakash/ros2practice/install:/home/aakash/eyantra_ws/install:/home/aakash/practice_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aakash'), ('JOURNAL_STREAM', '8:28743'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aakash/intelligent_quads/ardu_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/aakash/intelligent_quads/ardu_ws/install/mavlink/lib/pkgconfig:/home/aakash/catkin_ws/devel/lib/pkgconfig:/home/aakash/summer_camp_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'aakash'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo-11/../../share/gazebo-11/models:/home/aakash/summer_camp_ws/src/camp/worlds:/home/aakash/ardupilot/Tools/autotest/models:/home/aakash/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models:/home/aakash/ardupilot/Tools/autotest/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models:/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/aakash/intelligent_quads/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/aakash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aakash/ardupilot/Tools/autotest:/usr/lib/ccache:/home/aakash/ardupilot/Tools/autotest:/usr/share/gz:/usr/bin:/home/aakash/intelligent_quads/ardupilot:/home/aakash/ardupilot/Tools/autotest:/home/aakash/intelligent_quads/ardupilot/Tools/autotest:/opt/arm-toolchain/gcc-arm-none-eabi-10-2020-q4-major/bin'), ('SESSION_MANAGER', 'local/aakash:@/tmp/.ICE-unix/2911,unix/aakash:/tmp/.ICE-unix/2911'), ('INVOCATION_ID', '2883528547c3470786808454640fa3e0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aakash/flytbase_ws/install/turtle_assignment:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction:/home/aakash/simulation2_ws/install/move_robot_as:/home/aakash/simulation2_ws/install/t3_action_msg:/home/aakash/simulation2_ws/install/services_pkg:/home/aakash/simulation2_ws/install/ros2_mapping:/home/aakash/simulation2_ws/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_srvs2:/home/aakash/neobotix_workspace/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_nav2_bringup:/home/aakash/neobotix_workspace/install/neo_msgs2:/home/aakash/neobotix_workspace/install/neo_localization2:/home/aakash/neobotix_workspace/install/neo_local_planner2:/home/aakash/neobotix_workspace/install/neo_common2:/home/aakash/turtlebot3_ws/install/turtlebot3:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_simulations:/home/aakash/turtlebot3_ws/install/turtlebot3_bringup:/home/aakash/turtlebot3_ws/install/turtlebot3_node:/home/aakash/turtlebot3_ws/install/turtlebot3_navigation2:/home/aakash/turtlebot3_ws/install/turtlebot3_fake_node:/home/aakash/turtlebot3_ws/install/turtlebot3_example:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs:/home/aakash/turtlebot3_ws/install/turtlebot3_gazebo:/home/aakash/turtlebot3_ws/install/turtlebot3_description:/home/aakash/turtlebot3_ws/install/turtlebot3_cartographer:/home/aakash/turtlebot3_ws/install/tb3_sim:/home/aakash/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_examples:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/aakash/turtlebot3_ws/install/dynamixel_sdk:/home/aakash/ros2practice/install/my_robot_controller:/home/aakash/practice_ws/install/my_robot_controller:/home/aakash/eyantra_ws/install/ur5_moveit:/home/aakash/eyantra_ws/install/ur_description:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin:/home/aakash/eyantra_ws/install/pymoveit2:/home/aakash/eyantra_ws/install/linkattacher_msgs:/home/aakash/eyantra_ws/install/gazebo_ros2_control:/home/aakash/eyantra_ws/install/eyantra_warehouse:/home/aakash/eyantra_ws/install/ebot_nav2:/home/aakash/eyantra_ws/install/ebot_description:/home/aakash/eyantra_ws/install/ebot_docking:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1ca80eb4-ca94-4978-b8bb-55229e4506f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', ':/home/aakash/ardupilot/Tools/autotest/models'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/../../share/gazebo-11::/home/aakash/intelligent_quads/ardu_ws/src/iq_sim/worlds'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aakash/bumperbot_ws/build/bumperbot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/home/aakash/ros2_test_ws/install/my_gazebo_plugin/lib/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aakash/flytbase_ws/build/turtle_assignment:/home/aakash/flytbase_ws/install/turtle_assignment/lib/python3.10/site-packages:/home/aakash/flytbase/ros_ws/build/uav_deconfliction:/home/aakash/flytbase/ros_ws/install/uav_deconfliction/lib/python3.10/site-packages:/home/aakash/flytbase/ros2_ws/build/uav_deconfliction:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction/lib/python3.10/site-packages:/home/aakash/simulation2_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/aakash/simulation2_ws/build/services_pkg:/home/aakash/simulation2_ws/install/services_pkg/lib/python3.10/site-packages:/home/aakash/neobotix_workspace/install/neo_srvs2/local/lib/python3.10/dist-packages:/home/aakash/neobotix_workspace/install/neo_msgs2/local/lib/python3.10/dist-packages:/home/aakash/turtlebot3_ws/build/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/build/turtlebot3_example:/home/aakash/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/aakash/turtlebot3_ws/build/tb3_sim:/home/aakash/turtlebot3_ws/install/tb3_sim/lib/python3.10/site-packages:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/aakash/ros2practice/install/my_robot_controller/lib/python3.10/site-packages:/home/aakash/practice_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/aakash/eyantra_ws/install/pymoveit2/local/lib/python3.10/dist-packages:/home/aakash/eyantra_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/aakash/eyantra_ws/install/ebot_docking/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aakash/summer_camp_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CUDNN_INCLUDE_DIR', '/usr/include'), ('CMAKE_PREFIX_PATH', '/usr/include:/home/aakash/intelligent_quads/ardu_ws/install/mavlink:/home/aakash/simulation2_ws/install/move_robot_as:/home/aakash/simulation2_ws/install/t3_action_msg:/home/aakash/simulation2_ws/install/ros2_mapping:/home/aakash/simulation2_ws/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_srvs2:/home/aakash/neobotix_workspace/install/neo_simulation2:/home/aakash/neobotix_workspace/install/neo_nav2_bringup:/home/aakash/neobotix_workspace/install/neo_msgs2:/home/aakash/neobotix_workspace/install/neo_localization2:/home/aakash/neobotix_workspace/install/neo_local_planner2:/home/aakash/neobotix_workspace/install/neo_common2:/home/aakash/turtlebot3_ws/install/turtlebot3:/home/aakash/turtlebot3_ws/install/turtlebot3_simulations:/home/aakash/turtlebot3_ws/install/turtlebot3_bringup:/home/aakash/turtlebot3_ws/install/turtlebot3_node:/home/aakash/turtlebot3_ws/install/turtlebot3_navigation2:/home/aakash/turtlebot3_ws/install/turtlebot3_fake_node:/home/aakash/turtlebot3_ws/install/turtlebot3_msgs:/home/aakash/turtlebot3_ws/install/turtlebot3_gazebo:/home/aakash/turtlebot3_ws/install/turtlebot3_description:/home/aakash/turtlebot3_ws/install/turtlebot3_cartographer:/home/aakash/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_examples:/home/aakash/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/aakash/turtlebot3_ws/install/dynamixel_sdk:/home/aakash/eyantra_ws/install/ur5_moveit:/home/aakash/eyantra_ws/install/ur_description:/home/aakash/eyantra_ws/install/realsense_gazebo_plugin:/home/aakash/eyantra_ws/install/pymoveit2:/home/aakash/eyantra_ws/install/linkattacher_msgs:/home/aakash/eyantra_ws/install/gazebo_ros2_control:/home/aakash/eyantra_ws/install/eyantra_warehouse:/home/aakash/eyantra_ws/install/ebot_nav2:/home/aakash/eyantra_ws/install/ebot_description:/home/aakash/eyantra_ws/install/ebot_docking:/home/aakash/eyantra_ws/install/aws_robomaker_small_warehouse_world:/home/aakash/flytbase_ws/install/turtle_assignment:/home/aakash/flytbase/ros2_ws/install/uav_deconfliction:/home/aakash/simulation2_ws/install/services_pkg:/home/aakash/turtlebot3_ws/install/turtlebot3_teleop:/home/aakash/turtlebot3_ws/install/turtlebot3_example:/home/aakash/turtlebot3_ws/install/tb3_sim:/home/aakash/ros2practice/install/my_robot_controller:/home/aakash/practice_ws/install/my_robot_controller:/opt/ros/humble:/home/aakash/catkin_ws/devel:/home/aakash/summer_camp_ws/devel')]), 'shell': False}
+[29.938274] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.940252] (-) TimerEvent: {}
+[30.035526] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher\n'}
+[30.036138] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber\n'}
+[30.040365] (-) TimerEvent: {}
+[30.046893] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""\n'}
+[30.065743] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples\n'}
+[30.082630] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples\n'}
+[30.093108] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[30.093763] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[30.094106] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh\n'}
+[30.094318] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv\n'}
+[30.094601] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash\n'}
+[30.094914] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh\n'}
+[30.095191] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh\n'}
+[30.095393] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv\n'}
+[30.095638] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv\n'}
+[30.108902] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples\n'}
+[30.109489] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake\n'}
+[30.109765] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
+[30.110013] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/aakash/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
+[30.114508] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[30.140507] (-) TimerEvent: {}
+[30.240993] (-) TimerEvent: {}
+[30.341511] (-) TimerEvent: {}
+[30.442018] (-) TimerEvent: {}
+[30.542562] (-) TimerEvent: {}
+[30.643110] (-) TimerEvent: {}
+[30.743581] (-) TimerEvent: {}
+[30.843957] (-) TimerEvent: {}
+[30.899602] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[30.953792] (-) TimerEvent: {}
+[30.954122] (-) EventReactorShutdown: {}
