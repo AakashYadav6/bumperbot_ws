@@ -230,6 +230,7 @@
 			"paths" : 
 			[
 				"meshes",
+				"models",
 				"urdf",
 				"launch",
 				"rviz2"

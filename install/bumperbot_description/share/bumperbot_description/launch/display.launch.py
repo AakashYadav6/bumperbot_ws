@@ -1,6 +1,5 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument
 import os
 from ament_index_python.packages import get_package_share_directory
 import xacro
@@ -48,3 +47,4 @@ def generate_launch_description():
         joint_state_publisher_gui,
         rviz_node
     ])
+ 
