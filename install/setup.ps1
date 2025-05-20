@@ -26,7 +26,6 @@ _colcon_prefix_chain_powershell_source_script "/home/aakash/summer_camp_ws/devel
 _colcon_prefix_chain_powershell_source_script "/home/aakash/catkin_ws/devel\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/practice_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/aakash/eyantra_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/ros2practice/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/turtlebot3_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/neobotix_workspace/install\local_setup.ps1"
@@ -36,6 +35,8 @@ _colcon_prefix_chain_powershell_source_script "/home/aakash/ros2_ws/install\loca
 _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase/ros_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/aakash/eyantra_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/aakash/e_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)
