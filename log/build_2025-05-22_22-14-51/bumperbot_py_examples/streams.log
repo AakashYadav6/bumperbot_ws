@@ -1,0 +1,31 @@
+[3.556s] Invoking command in '/home/aakash/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/aakash/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/aakash/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[3.718s] /home/aakash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[3.719s]   warnings.warn(msg)
+[3.816s] running egg_info
+[3.832s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[3.832s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[3.832s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[3.833s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[3.833s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[3.866s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.868s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.868s] running build
+[3.868s] running build_py
+[3.868s] copying bumperbot_py_examples/__init__.py -> /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[3.869s] copying bumperbot_py_examples/simple_publisher.py -> /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[3.884s] copying bumperbot_py_examples/simple_subscriber.py -> /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[3.915s] copying bumperbot_py_examples/simple_parameter.py -> /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[3.926s] running install
+[3.931s] running install_lib
+[3.948s] running install_data
+[3.948s] copying resource/bumperbot_py_examples -> /home/aakash/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[3.948s] copying package.xml -> /home/aakash/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[3.949s] running install_egg_info
+[3.966s] removing '/home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[3.989s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[3.990s] running install_scripts
+[4.132s] Installing simple_parameter script to /home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.132s] Installing simple_publisher script to /home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.133s] Installing simple_subscriber script to /home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.133s] writing list of installed files to '/home/aakash/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[4.172s] Invoked command in '/home/aakash/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/aakash/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/aakash/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/aakash/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

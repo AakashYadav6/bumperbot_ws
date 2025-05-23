@@ -2,6 +2,7 @@
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/bumperbot_firmware_uninstall.dir
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/ament_cmake_python_copy_bumperbot_firmware.dir
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir
+/home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/simple_serial_transmitter.dir
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/test.dir
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/edit_cache.dir
 /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/rebuild_cache.dir

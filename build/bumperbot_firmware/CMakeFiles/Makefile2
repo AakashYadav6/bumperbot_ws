@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/aakash/bumperbot_ws/build/bumperbot_firmware
 
 # The main recursive "all" target.
 all: CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/all
+all: CMakeFiles/simple_serial_transmitter.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/bumperbot_firmware_uninstall.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_bumperbot_firmware.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean
+clean: CMakeFiles/simple_serial_transmitter.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -180,6 +182,32 @@ ament_cmake_python_build_bumperbot_firmware_egg: CMakeFiles/ament_cmake_python_b
 CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple_serial_transmitter.dir
+
+# All Build rule for target.
+CMakeFiles/simple_serial_transmitter.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles --progress-num=1,2 "Built target simple_serial_transmitter"
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple_serial_transmitter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple_serial_transmitter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/bumperbot_ws/build/bumperbot_firmware/CMakeFiles 0
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/rule
+
+# Convenience name for target.
+simple_serial_transmitter: CMakeFiles/simple_serial_transmitter.dir/rule
+.PHONY : simple_serial_transmitter
+
+# clean rule for target.
+CMakeFiles/simple_serial_transmitter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/clean
+.PHONY : CMakeFiles/simple_serial_transmitter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

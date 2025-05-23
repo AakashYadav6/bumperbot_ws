@@ -36,7 +36,6 @@ _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase/ros2_ws/ins
 _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase/ros_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/flytbase_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/aakash/eyantra_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/aakash/e_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)
