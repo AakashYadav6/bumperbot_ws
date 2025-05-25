@@ -2,6 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from turtlesim.msg import Pose
+import math
 
 
 class SimpleTurtlesimKinematics(Node):
@@ -13,8 +14,8 @@ class SimpleTurtlesimKinematics(Node):
         self.turtlesim2_pose_sub_ = self.create_subscription(
             Pose, "/turtle2/pose", self.turtle2PoseCallback, 10)
 
-        self.last_turtle1_pose_ = None
-        self.last_turtle2_pose_ = None
+        self.last_turtle1_pose_ = Pose()
+        self.last_turtle2_pose_ = Pose()
 
     def turtle1PoseCallback(self, msg):
         self.last_turtle1_pose_ = msg
@@ -22,14 +23,19 @@ class SimpleTurtlesimKinematics(Node):
     def turtle2PoseCallback(self, msg):
         self.last_turtle2_pose_ = msg
 
-        # Only compute if we have both poses
-        if self.last_turtle1_pose_ is not None:
-            Tx = self.last_turtle2_pose_.x - self.last_turtle1_pose_.x
-            Ty = self.last_turtle2_pose_.y - self.last_turtle1_pose_.y
+        
+        Tx = self.last_turtle2_pose_.x - self.last_turtle1_pose_.x
+        Ty = self.last_turtle2_pose_.y - self.last_turtle1_pose_.y
 
-            self.get_logger().info(
-                f"\nTranslation vector turtle1 -> turtle2\nTx: {Tx:.2f}, Ty: {Ty:.2f}"
-            )
+        theta_rad = self.last_turtle2_pose_.theta - self.last_turtle1_pose_.theta
+        theta_deg =100 * theta_rad / 3.14
+
+
+        self.get_logger().info(
+            f"\nTranslation vector turtle1 -> turtle2\n"
+            f"Tx: {Tx:.2f}, Ty: {Ty:.2f}\n"
+            f"Rotation: {theta_rad:.2f} rad, {theta_deg:.2f} deg"
+        )
 
 
 def main():
