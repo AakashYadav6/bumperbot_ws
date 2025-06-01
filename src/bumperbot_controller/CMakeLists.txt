@@ -15,7 +15,7 @@ find_package(geometry_msgs REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
-   ${PROJECT_NAME}/simple_controller
+   ${PROJECT_NAME}/simple_controller.py
    DESTINATION lib/${PROJECT_NAME}
 
 )

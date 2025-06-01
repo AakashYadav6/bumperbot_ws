@@ -1,0 +1,15 @@
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+/home/aakash/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
