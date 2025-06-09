@@ -1,7 +1,0 @@
-/home/aakash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
-  warnings.warn(msg)
-  File "/home/aakash/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py", line 40
-    10110000 10
-             ^^
-SyntaxError: invalid syntax
-

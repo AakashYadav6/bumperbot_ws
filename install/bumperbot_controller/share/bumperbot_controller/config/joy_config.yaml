@@ -1,0 +1,8 @@
+joystick:
+  ros_parameters:
+    device_id: 0                  # Index of the joystick device (/dev/input/js0)
+    device_name: ""              # Can specify exact device name instead of ID; leave blank to use device_id
+    deadzone: 0.5                # Threshold to ignore small axis movements (0.5 is very high)
+    autorepeat_rate: 20.0        # Frequency (Hz) to repeat the last command when joystick is steady
+    sticky_buttons: false        # If true, buttons toggle on/off instead of momentary press
+    coalesce_interval_ms: 1      # Time in milliseconds to coalesce multiple events
